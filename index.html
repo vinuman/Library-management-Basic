@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library management system</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Mulish:ital,wght@0,400;0,600;0,700;0,800;0,900;0,1000;1,400;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@400;600&family=Quicksand:wght@300&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Library Management System</h1>
+    <form id="issueForm">
+        <div class="field1">
+            <label for="Book">Book Name</label>
+        <input type="text" id="bookName">
+        </div>
+        <div class="field2">
+            <label for="Issued">Issued To</label>
+        <input type="text" id="issuedTo">
+        </div>
+        <button>Issue Book</button>
+    </form>
+    
+
+    <table id="book-table">
+        <thead>
+            <tr>
+                <th class="id">ID</th>
+                <th class="book">Book Name</th>
+                <th class="issued">Issued to</th>
+                <th class="date">Issue Date and time</th>
+                <th class="status">Status</th>
+            </tr>
+            
+        </thead>
+        <tbody id="tableBody">
+            <tr>
+                <td class="id"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            
+        </tbody>
+    </table>
+</body>
+</html>
